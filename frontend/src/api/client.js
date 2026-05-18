@@ -3,7 +3,7 @@
  * In dev, Vite proxies /api to http://127.0.0.1:5000
  */
 
-const API_BASE = "/api";
+const API_BASE = "https://irisai-2ze9.onrender.com/api";
 
 async function handleResponse(response) {
   const data = await response.json().catch(() => ({}));
